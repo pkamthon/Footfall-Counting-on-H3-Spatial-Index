@@ -1,4 +1,4 @@
-# 📍 Footfall Counting & H3 Spatial Indexing
+# Footfall Counting & H3 Spatial Indexing
 
 ### *Footfall_Counting_Cellsite2H3.ipynb*
 
