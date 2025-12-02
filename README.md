@@ -13,9 +13,9 @@ aggregated at **H3 resolution 9**.
 This notebook processes hourly footfall data by:
 
 1.  Loading CDR + Cellsite reference tables
-2.  Joining to estimate user positions
+2.  Joining to estimate user positions from cellsite locations
 3.  Converting latitude / longitude to H3 resolution-9
-4.  Enriching with location metadata (H3 lookup table)
-5.  Adding demographics from Customer360
+4.  Filter out irrelevant based on location metadata (H3 lookup table)
+5.  Adding demographics from Customer360 table
 6.  Aggregating footfall counts & age-group distributions
 7.  Saving the final dataset to a Parquet file
